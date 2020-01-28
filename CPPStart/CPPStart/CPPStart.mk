@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=CPPStart
 ConfigurationName      :=Debug
-WorkspacePath          :=/Users/Zhanat/Desktop/CPPStart
-ProjectPath            :=/Users/Zhanat/Desktop/CPPStart/CPPStart
+WorkspacePath          :=/Users/Zhanat/Documents/GitHub/C_PlusPlus_Start/CPPStart
+ProjectPath            :=/Users/Zhanat/Documents/GitHub/C_PlusPlus_Start/CPPStart/CPPStart
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Zhanat/Desktop/CPPStart/CPPStart/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/Zhanat/Documents/GitHub/C_PlusPlus_Start/CPPStart/CPPStart/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
