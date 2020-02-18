@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CPPStart - Debug ]----------"
-	@cd "CPPStart" && "$(MAKE)" -f  "CPPStart.mk"
+	@echo "----------Building project:[ Vectors - Debug ]----------"
+	@cd "Vectors" && "$(MAKE)" -f  "Vectors.mk"
 clean:
-	@echo "----------Cleaning project:[ CPPStart - Debug ]----------"
-	@cd "CPPStart" && "$(MAKE)" -f  "CPPStart.mk" clean
+	@echo "----------Cleaning project:[ Vectors - Debug ]----------"
+	@cd "Vectors" && "$(MAKE)" -f  "Vectors.mk" clean

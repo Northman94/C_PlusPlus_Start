@@ -64,7 +64,7 @@ int main()
 	return 0; 
 }
 */
-
+/*
 
 //Arrays
 #include <iostream>
@@ -84,3 +84,4 @@ int main()
 	
 	return 0;
 }
+*/
