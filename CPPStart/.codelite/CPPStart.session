@@ -4,16 +4,9 @@
   <wxString Value="/Users/Zhanat/Documents/GitHub/C_PlusPlus_Start/CPPStart/CPPStart.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/Users/Zhanat/Documents/GitHub/C_PlusPlus_Start/CPPStart/CPPStart/main.cpp" Name="FileName"/>
-      <int Value="68" Name="FirstVisibleLine"/>
-      <int Value="86" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/Users/Zhanat/Documents/GitHub/C_PlusPlus_Start/CPPStart/Arrays_Start/main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <wxString Value="/Users/Zhanat/Documents/GitHub/C_PlusPlus_Start/CPPStart/Vectors/main.cpp" Name="FileName"/>
+      <int Value="62" Name="FirstVisibleLine"/>
+      <int Value="80" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
